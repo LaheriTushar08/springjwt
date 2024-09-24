@@ -12,5 +12,11 @@ public class TestController {
     @ResponseBody
     public String hello() {
         return "Hello";
-    }     
+    }   
+    
+    @RequestMapping("/home/test")
+    @ResponseBody
+    public String display() {
+        return "We are good to go!!";
+    }   
 }
